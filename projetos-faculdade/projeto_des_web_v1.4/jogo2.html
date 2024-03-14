@@ -1,0 +1,67 @@
+<!DOCTYPE html> <!-- Declaração do tipo de documento como HTML -->
+<html lang="en"> <!-- Início do documento HTML com especificação do idioma (inglês) -->
+<head>
+    <meta charset="UTF-8"> <!-- Configuração da codificação de caracteres -->
+    <meta name="viewport" content="width='device-width', initial-scale=1.0"> <!-- Definição da viewport para dispositivos -->
+    <link rel="stylesheet" href="jogo.css"> <!-- Ligação ao arquivo CSS externo -->
+    <link rel="icon" type="image/x-icon" href="img/logo_provisoria.png"> <!-- Ícone da página -->
+    <title>GSCORE</title> <!-- Título da página exibido na aba do navegador -->
+</head>
+<body>
+    <main> <!-- Início do conteúdo principal -->
+        <header> <!-- Cabeçalho da página -->
+            <div id="left-side"> <!-- Lado esquerdo do cabeçalho -->
+                <!-- Logo e link para a página inicial -->
+                <a href="index.html"><img src="img/logo_provisoria.png" alt="logo do site"></a>
+                <a href="index.html"><h2>gscore</h2></a> <!-- Título do site com link -->
+            </div>
+            <nav> <!-- Navegação -->
+                <div id="pages">
+                    <ul>
+                        <!-- Links para diferentes páginas do site -->
+                        <li>
+                            <a href="login.html" id="signin">sign in</a> <!-- Link para login -->
+                        </li>
+                        <li>
+                            <a href="create_account.html">create account</a> <!-- Link para criar conta -->
+                        </li>
+                        <li>
+                            <a href="games.html">games</a> <!-- Link para jogos -->
+                        </li>
+                        <li>
+                            <a href="aboutus.html">about us</a> <!-- Link para informações sobre o site -->
+                        </li>
+                    </ul>
+                </div>
+                <div class="search-box"> <!-- Caixa de pesquisa -->
+                    <input type="search" value="" placeholder="Search..."> <!-- Campo de pesquisa -->
+                </div>
+            </nav>
+        </header>
+        <section> <!-- Seção principal da página -->
+            <div id="left-side-cover"> <!-- Lado esquerdo da seção -->
+                <img src="img/jogo2/stardew-valley_k54m.jpg" alt=""> <!-- Imagem do jogo -->
+            </div>
+            <div id="right-side-cover"> <!-- Lado direito da seção -->
+                <article> <!-- Artigo -->
+                    <!-- Informações sobre o jogo -->
+                    <h2>Stardew Valley</h2>
+                    <h3>26/02/2016</h3>
+                    <h3>Eric Barone</h3>
+                    <h4>gscore:</h4>
+                    <!-- Descrição do jogo -->
+                    <p>Stardew Valley é um RPG sem fim da vida no campo! Você herdou a antiga fazenda de seu avô no Vale do Orvalho. Equipado com ferramentas de segunda mão e algumas moedas, você irá começar sua nova vida. Será que você consegue aprender a viver da terra e transformar esses campos absurdamente vegetados em uma casa próspera?</p>
+                </article>
+                <div id="nota"> <!-- Classificação ou pontuação do jogo -->
+                    <h2>90</h2>
+                </div>
+                <aside> <!-- Seção adicional (lateral) -->
+                    <!-- Imagens relacionadas ao jogo -->
+                    <img src="img/jogo2/imagem-2023-04-29-161332137.png" alt="">
+                    <img src="img/jogo2/1_1screenshot15.png" alt="">
+                </aside>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="./javascript/index.js"></script> <!-- Inclusão do script JavaScript -->
+</body>

@@ -1,0 +1,68 @@
+<!DOCTYPE html> <!-- Indica o tipo de documento como HTML5 -->
+<html lang="en"> <!-- Define a linguagem do documento como inglês -->
+<head>
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width='device-width', initial-scale=1.0"> <!-- Configura a exibição responsiva para dispositivos móveis -->
+    <link rel="stylesheet" href="jogo.css"> <!-- Vincula o arquivo CSS "jogo.css" ao documento -->
+    <link rel="icon" type="image/x-icon" href="img/logo_provisoria.png"> <!-- Define o ícone da página -->
+    <title>GSCORE</title> <!-- Título da página exibido na aba do navegador -->
+</head>
+<body>
+    <main>
+        <header> <!-- Cabeçalho principal da página -->
+            <div id="left-side"> <!-- Seção esquerda do cabeçalho -->
+                <a href="index.html"><img src="img/logo_provisoria.png" alt="logo do site"></a> <!-- Logo do site, link para a página inicial -->
+                <a href="index.html"><h2>gscore</h2></a> <!-- Texto "gscore", link para a página inicial -->
+            </div>
+            <nav> <!-- Navegação do site -->
+                <div id="pages">
+                    <ul>
+                        <li>
+                            <a href="login.html" id="signin">sign in</a> <!-- Link para a página de login -->
+                        </li>
+                        <li>
+                            <a href="create_account.html">create account</a> <!-- Link para a página de criação de conta -->
+                        </li>
+                        <li>
+                            <a href="games.html">games</a> <!-- Link para a página de jogos -->
+                        </li>
+                        <li>
+                            <a href="aboutus.html">about us</a> <!-- Link para a página "sobre nós" -->
+                        </li>
+                    </ul>
+                </div>
+                <div class="search-box"> <!-- Caixa de pesquisa -->
+                    <input type="search" value="" placeholder="Search..."> <!-- Campo de entrada para pesquisa -->
+                </div>
+            </nav>
+        </header>
+        <section> <!-- Seção principal do conteúdo -->
+            <div id="left-side-cover"> <!-- Lado esquerdo da seção com uma capa de jogo -->
+                <img src="img/jogo3/FC-24-Buy-Cheap-Play-Cheap-Cover-Art.jpg" alt=""> <!-- Imagem da capa do jogo -->
+            </div>
+            <div id="right-side-cover"> <!-- Lado direito da seção -->
+                <article> <!-- Artigo sobre o jogo -->
+                    <h2>FC24™</h2> <!-- Título do jogo -->
+                    <h3>29/09/2023</h3> <!-- Data de lançamento -->
+                    <h3>Eletronic Arts</h3> <!-- Desenvolvedora do jogo -->
+                    <h4>gscore:</h4> <!-- Nome do sistema de pontuação -->
+                    <p>O EA SPORTS FC™ 24 traz para você o Jogo de Todo Mundo, a experiência mais autêntica de futebol de todos os tempos com o HyperMotionV*, PlayStyles otimizada pela Opta e um Frostbite™ Engine aprimorado, que reinventa como mais de 19.000 atletas realistas se movimentam, jogam e aparecem em todas as partidas.</p> <!-- Descrição do jogo -->
+                </article>
+                <div id="nota"> <!-- Área de pontuação ou avaliação -->
+                    <!-- Estilo CSS para a área de nota -->
+                    <style>
+                        #nota{
+                            background-color: rgb(182, 232, 83); 
+                        }
+                    </style>
+                    <h2>76</h2> <!-- Pontuação do jogo -->
+                </div>
+                <aside> <!-- Seção lateral -->
+                    <img src="img/jogo3/EA-divulga-capa-da-Ultimate-Edition-de-EA-Sports-FC-24-que-ganha-trailer-de-anunci.webp" alt=""> <!-- Imagem da edição especial do jogo -->
+                    <img src="img/jogo3/D_NQ_NP_757202-MLB71285765080_082023-O.webp" alt=""> <!-- Outra imagem relacionada ao jogo -->
+                </aside>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="./javascript/index.js"></script> <!-- Vincula um arquivo JavaScript ao documento -->
+</body>

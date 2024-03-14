@@ -1,0 +1,237 @@
+/* Importando diferentes fontes do Google Fonts para uso no site */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+
+/* Resetando estilos padrão para elementos HTML */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: sans-serif;
+  color: #17171a;
+}
+
+/* Estilos para o corpo da página */
+body {
+  background-color: #17171a;
+}
+
+/* Estilos para a seção principal da página */
+main {
+  width: 1200px;
+  height: auto;
+  position: relative;
+  margin: 0px auto 0 auto;
+}
+
+/* Estilos para o cabeçalho da página */
+header {
+  width: 100%;
+  height: 90px;
+  background-color: #17171a;
+  display: flex;
+  border-bottom: 1px solid #1c253b;
+}
+
+/* Estilos para a parte esquerda do cabeçalho */
+#left-side {
+  width: 40%;
+  height: 100%;
+  float: left;
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+
+/* Estilos para a imagem no lado esquerdo do cabeçalho */
+#left-side img {
+  width: 40px;
+  height: 40px;
+}
+
+/* Estilos para o título no lado esquerdo do cabeçalho */
+#left-side h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 26pt;
+  font-family: "League Spartan", sans-serif;
+  margin-left: 20px;
+}
+
+/* Estilos para a navegação do cabeçalho */
+nav {
+  width: 100%;
+  height: 100%;
+  float: right;
+  display: flex;
+}
+
+/* Estilos para os links de navegação */
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12pt;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+/* Estilos para a seção de páginas */
+#pages {
+  width: 100%;
+  float: right;
+}
+
+/* Estilos para a lista de páginas */
+#pages ul {
+  display: flex;
+  margin-top: 35px;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Estilos para cada item da lista de páginas */
+#pages ul li {
+  margin-right: 30px;
+}
+
+/* Estilos para a caixa de busca na navegação */
+#search-box {
+  height: 100%;
+}
+
+/* Estilo para a barra de navegação */
+nav input {
+  height: 40px; /* Altura do input */
+  width: 250px; /* Largura do input */
+  float: right; /* Flutua para a direita */
+  position: relative; /* Posição relativa */
+  margin-top: 25px; /* Margem superior */
+  margin-right: 50px; /* Margem direita */
+  border-radius: 17px; /* Borda arredondada */
+  background: rgb(45, 186, 255); /* Cor de fundo inicial */
+  background: linear-gradient(
+    90deg,
+    rgba(45, 186, 255, 1) 0%,
+    rgba(147, 64, 255, 1) 100%
+  ); /* Gradiente de fundo */
+  color: rgb(0, 0, 0); /* Cor do texto */
+  transition: background 0.3s, color 0.3s; /* Efeito de transição */
+  caret-color: #000; /* Cor do cursor de texto */
+  font-family: "Tilt Neon", sans-serif; /* Fonte do texto */
+}
+
+/* Estilo para o texto de espaço reservado no input */
+nav input::placeholder {
+  color: rgba(255, 255, 255, 0.671); /* Cor do texto do espaço reservado */
+  font-weight: bold; /* Peso da fonte do espaço reservado */
+  padding-left: 15px; /* Preenchimento à esquerda */
+  transition: opacity 0.3s ease; /* Transição de opacidade */
+}
+
+/* Estilo quando o input está em foco */
+nav input:focus {
+  background: rgb(255, 255, 255); /* Cor de fundo quando em foco */
+  color: #000000; /* Cor do texto quando em foco */
+  padding-left: 15px; /* Preenchimento à esquerda */
+}
+
+/* Estilo para o texto de espaço reservado quando o input está em foco */
+nav input:focus::placeholder {
+  opacity: 0; /* Oculta o texto de espaço reservado quando em foco */
+}
+
+/* Estilização da seção principal do site */
+section {
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-size: 1200px;
+}
+
+/* Estilização do título h1 na seção principal */
+section h1 {
+    color: rgb(230, 230, 230);
+    font-size: 50px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Estilização do título h2 na seção principal */
+section h2 {
+    color: rgb(230, 230, 230);
+    font-size: 22px;
+    font-family: 'Tilt Neon', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+/* Estilização do título h3 na seção principal */
+section h3 {
+    color: rgb(230, 230, 230);
+    font-size: 50px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilização da barra lateral do site */
+aside {
+    width: 50%;
+    height: 500px;
+    float: right;
+    background-size: 1200px;
+}
+
+/* Estilização da imagem na barra lateral */
+aside img {
+    width: 80%;
+    height: 90%;
+    margin-top: 85px;
+    margin-left: 35px;
+    border-radius: 30px;
+}
+
+/* Estilização do grupo de formulários */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Estilização do label dentro do grupo de formulários */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 15pt;
+    color: white;
+}
+
+/* Estilização do input dentro do grupo de formulários */
+.form-group input {
+    width: 380px;
+    padding: 8px;
+    border: 1px solid #525252;
+    border-radius: 4px;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+/* Estilização do botão dentro do grupo de formulários */
+.form-group button {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    background-color: #28229b;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16pt;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+}

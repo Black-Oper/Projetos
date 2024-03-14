@@ -1,0 +1,80 @@
+<!-- Declaração do tipo de documento -->
+<!DOCTYPE html>
+<!-- Abertura da tag HTML -->
+<html lang="en">
+<head>
+    <!-- Metadados para configuração de caracteres e visualização -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link para o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="login.css">
+    <!-- Ícone do site -->
+    <link rel="icon" type="image/x-icon" href="img/logo_provisoria.png">
+    <!-- Título da página -->
+    <title>Sign In</title>
+</head>
+<body>
+    <!-- Elemento principal da página -->
+    <main>
+        <!-- Cabeçalho da página -->
+        <header>
+            <!-- Lado esquerdo do cabeçalho -->
+            <div id="left-side">
+                <!-- Links com imagem e texto do logo, ambos direcionando para a página inicial -->
+                <a href="index.html"><img src="img/logo_provisoria.png" alt="logo do site"></a>
+                <a href="index.html"><h2>gscore</h2></a>
+            </div>
+            <!-- Navegação principal -->
+            <nav>
+                <!-- Lista de páginas -->
+                <div id="pages">
+                    <ul>
+                        <!-- Links para diferentes seções do site -->
+                        <li>
+                            <a href="login.html">sign in</a>
+                        </li>
+                        <li>
+                            <a href="create_account.html">create account</a>
+                        </li>
+                        <li>
+                            <a href="games.html">games</a>
+                        </li>
+                        <li>
+                            <a href="aboutus.html">about us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Caixa de busca -->
+                <div class="search-box">
+                    <input type="search" value="" placeholder="Search...">
+                </div>
+            </nav>
+        </header>
+        <!-- Conteúdo principal da página -->
+        <div class="container">
+            <!-- Título do formulário de login -->
+            <h2>Sign in</h2>
+            <!-- Formulário de login -->
+            <form>
+              <!-- Campo de entrada para o nome de usuário -->
+              <div class="form-group">
+                <label for="username">User:</label>
+                <input type="text" id="username" name="username" required>
+              </div>
+              <!-- Campo de entrada para a senha -->
+              <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+              </div>
+              <!-- Botão para submeter o formulário -->
+              <div class="form-group">
+                <!-- O botão redireciona para a página de jogos -->
+                <a href="games.html"><button type="button" id="botao">go!!!</button></a>
+              </div>
+            </form>
+        </div>
+    </main>
+    <!-- Inclusão do arquivo JavaScript -->
+    <script src="./javascript/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Definindo o conjunto de caracteres e a escala inicial para dispositivos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Importando o arquivo CSS para estilizar esta página -->
+    <link rel="stylesheet" href="create_account.css">
+    
+    <!-- Ícone da página -->
+    <link rel="icon" type="image/x-icon" href="img/logo_provisoria.png">
+    
+    <!-- Título da página -->
+    <title>Create Account</title>
+</head>
+<body>
+    <!-- Elemento principal da página -->
+    <main>
+        <!-- Cabeçalho -->
+        <header>
+            <!-- Parte esquerda do cabeçalho -->
+            <div id="left-side">
+                <!-- Link e imagem do logo -->
+                <a href="index.html"><img src="img/logo_provisoria.png" alt="logo do site"></a>
+                <!-- Link e texto "gscore" -->
+                <a href="index.html"><h2>gscore</h2></a>
+            </div>
+            
+            <!-- Navegação -->
+            <nav>
+                <!-- Lista de páginas -->
+                <div id="pages">
+                    <ul>
+                        <!-- Links para diferentes páginas -->
+                        <li>
+                            <a href="login.html">sign in</a>
+                        </li>
+                        <li>
+                            <a href="create_account.html">create account</a>
+                        </li>
+                        <li>
+                            <a href="games.html">games</a>
+                        </li>
+                        <li>
+                            <a href="aboutus.html">about us</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Caixa de pesquisa -->
+                <div class="search-box">
+                    <input type="search" value="" placeholder="Search...">
+                </div>
+            </nav>
+        </header>
+        
+        <!-- Div com classe container -->
+        <div class="container">
+            <!-- Título "Create Account" -->
+            <h2>Create Account</h2>
+            <!-- Formulário -->
+            <form>
+              <!-- Grupo de formulário para o nome de usuário -->
+              <div class="form-group">
+                <label for="username">User:</label>
+                <input type="text" id="username" name="username" required>
+              </div>
+              <!-- Grupo de formulário para a senha -->
+              <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+              </div>
+              <!-- Grupo de formulário para confirmar a senha -->
+              <div class="form-group">
+                <label for="password">Confirm Password:</label>
+                <input type="password" id="password" name="password" required>
+              </div>
+              <!-- Grupo de formulário com botão -->
+              <div class="form-group">
+                <!-- Botão para redirecionar para a página de jogos -->
+                <a href="games.html"><button type="button" id="botao">go!!!</button></a>
+              </div>
+            </form>
+        </div>
+    </main>
+    
+    <!-- Importando o arquivo JavaScript -->
+    <script src="./javascript/create_account.js"></script>
+</body>
+</html>
